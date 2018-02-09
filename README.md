@@ -1,12 +1,12 @@
 [![privacytools](https://strappazzon.github.io/privacytools-it/img/layout/logo.png)](https://strappazzon.github.io/privacytools-it/)
 
-_Crittografia contro la Sorveglianza di Massa Globale._
+_Protezione contro la Sorveglianza di Massa Globale._
 
 # Contribuire
 
-Le informazioni aggiornate sono importanti per un sito come privacytools. Tieni d'occhio gli aggiornamenti software delle applicazioni mostrate qui. Segui le più recenti notizie sui servizi che consigliamo. Facciamo del nostro meglio per tenerci aggiornati ma non siamo perfetti e Internet sta cambiando rapidamente. Quindi se trovi un errore, o credi che un servizio non debba essere mostrato qui, oppure ne manca uno qualificato o un'estensione per un browser non è la scelta migliore...
+Le informazioni aggiornate sono importanti per un sito come privacytools. Tieni d'occhio gli aggiornamenti dei software mostrati qui. Segui le notizie più recenti sui servizi che consigliamo. Facciamo del nostro meglio per tenerci aggiornati ma non siamo perfetti ed Internet sta cambiando rapidamente. Quindi se trovi un errore, credi che un servizio non debba essere mostrato qui, oppure ne manca uno qualificato o un'estensione per un browser non è la scelta migliore...
 
-**Per favore parla con noi.** Entra nel nostro [subreddit](https://www.reddit.com/r/privacytoolsIO/) ed apri una discussione. Questo è un progetto basato su una comunità e puntiamo ad offrire le informazioni migliori disponibili per una privacy migliore. Utilizzamo anche [/r/privacy](https://www.reddit.com/r/privacy). Grazie per la partecipazione.
+**Per favore parla con noi.** Entra nel nostro [subreddit](https://www.reddit.com/r/privacytoolsIO/) ed apri una discussione (in inglese). Questo è un progetto creato dalla comunità e puntiamo ad offrire le informazioni migliori per una privacy migliore. Utilizziamo anche [/r/privacy](https://www.reddit.com/r/privacy). Grazie per la collaborazione.
 
 Puoi inviarci i tuoi consigli qui su GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) o nel nostro [subreddit](https://www.reddit.com/r/privacytoolsIO/). Grazie.
 
@@ -22,7 +22,7 @@ Per favore leggi quanto segue prima di contribuire.
 
 ## Qualità è meglio di Quantità
 
-Cerchiamo di rendere le cose semplici e di promuovere gli strumenti migliori, non tutti. Consentiamo un massimo di tre scelte, ma è possibile aggiungerne altre sotto i titoli "Vale la pena menzionare". ([esempio](https://strappazzon.github.io/privacytools-it/#im)) 
+Cerchiamo di rendere le cose più facili e di promuovere gli strumenti migliori, non tutti. Consentiamo un massimo di tre scelte, ma è possibile aggiungerne altre sotto la voce "Vale la pena menzionare". ([esempio](https://strappazzon.github.io/privacytools-it/#im))
 
 ## Criteri per i software
 
@@ -31,7 +31,7 @@ Cerchiamo di rendere le cose semplici e di promuovere gli strumenti migliori, no
 - Facili da utilizzare
 - Rispettano la privacy
 
-Si possono fare delle eccezioni se i software non rispettano i criteri.
+Si possono fare delle eccezioni se i software non rispettano questi criteri.
 
 ## Immagini
 
@@ -41,15 +41,15 @@ Si possono fare delle eccezioni se i software non rispettano i criteri.
 # Supporta privacytools.io
 
 - [Dona.](https://strappazzon.github.io/privacytools-it/donate.html)
-- [Spargi la voce.](https://strappazzon.github.io/privacytools-it/#participate)
+- [Spargi la voce.](https://strappazzon.github.io/privacytools-it/#participa)
 - [Inviaci dei suggerimenti su Reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - Visualizza e modifica il codice sorgente del nostro sito web qui su GitHub.
 
 # Traduzioni fornite dalla Comunità
-- [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
-- [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
-- [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
-- [Italiano / Italian](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
+- [繁体中文 / Cinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [Español / Spagnolo](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
+- [Deutsch / Tedesco](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
+- [Italiano / Italiano](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
 
 # Licenza
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
