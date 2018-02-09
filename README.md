@@ -1,4 +1,4 @@
-[![privacytools](https://privacytoolsio.github.io/privacytools.io/img/layout/logo.png)](https://www.privacytools.io/)
+[![privacytools](https://strappazzon.github.io/privacytools-it/img/layout/logo.png)](https://strappazzon.github.io/privacytools-it/)
 
 _Crittografia contro la Sorveglianza di Massa Globale._
 
@@ -22,7 +22,7 @@ Per favore leggi quanto segue prima di contribuire.
 
 ## Qualità è meglio di Quantità
 
-Cerchiamo di rendere le cose semplici e di promuovere gli strumenti migliori, non tutti. Consentiamo un massimo di tre scelte, ma è possibile aggiungerne altre sotto i titoli "Vale la pena menzionare". ([esempio](https://www.privacytools.io/#im)) 
+Cerchiamo di rendere le cose semplici e di promuovere gli strumenti migliori, non tutti. Consentiamo un massimo di tre scelte, ma è possibile aggiungerne altre sotto i titoli "Vale la pena menzionare". ([esempio](https://strappazzon.github.io/privacytools-it/#im)) 
 
 ## Criteri per i software
 
@@ -35,13 +35,13 @@ Si possono fare delle eccezioni se i software non rispettano i criteri.
 
 ## Immagini
 
-- I loghi dei servizi dovrebbero essere esattamente 200 x 70 ([esempio](https://privacytools.io/img/provider/AirVPN.gif))
-- I loghi degli strumenti dovrebbero essere esattamente 120 x 120 ([esempio](https://privacytools.io/img/tools/ChatSecure.png))
+- I loghi dei servizi dovrebbero essere esattamente 200 x 70 ([esempio](https://strappazzon.github.io/privacytools-it/img/provider/AirVPN.gif))
+- I loghi degli strumenti dovrebbero essere esattamente 120 x 120 ([esempio](https://strappazzon.github.io/privacytools-it/img/tools/ChatSecure.png))
 
 # Supporta privacytools.io
 
-- [Dona.](https://privacytools.io/donate.html)
-- [Spargi la voce.](https://privacytoolsio.github.io/privacytools.io/#participate)
+- [Dona.](https://strappazzon.github.io/privacytools-it/donate.html)
+- [Spargi la voce.](https://strappazzon.github.io/privacytools-it/#participate)
 - [Inviaci dei suggerimenti su Reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - Visualizza e modifica il codice sorgente del nostro sito web qui su GitHub.
 
@@ -49,7 +49,7 @@ Si possono fare delle eccezioni se i software non rispettano i criteri.
 - [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
-- [Italiano / Italian](https://www.example.com/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
+- [Italiano / Italian](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
 
 # Licenza
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
