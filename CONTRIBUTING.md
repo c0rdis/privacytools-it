@@ -1,0 +1,1 @@
+Per favore utilizza le sezioni **Contribuire** e **Linee guida per contribuire** del nostro [README](https://github.com/Strappazzon/privacytools-it/blob/master/README.md) per le linee guida aggiornate. Grazie.
