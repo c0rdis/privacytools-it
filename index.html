@@ -125,6 +125,7 @@
 							<li><a href="#condivisione_file">Condivisione file</a></li>
 							<li><a href="#sincronizzazione">Sincronizzazione sicura dei file</a></li>
 							<li><a href="password.html">Generatore di password sicure</a></li>
+							<li><a href="#autenticatori">Autenticatori open source</a></li>
 							<li><a href="#darknet">Reti autonome</a></li>
 							<li><a href="#cloud">Server Cloud auto-ospitati</a></li>
 							<li><a href="#appunti">Blocco appunti digitali</a></li>
@@ -1947,6 +1948,73 @@
 				sia per motivi di memoria, tempo o spazio su disco.
 			</li>
 		</ul>
+		<a class="anchor" name="autenticatori"></a>
+		<div class="page-header">
+			<h1><a href="#autenticatori" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Autenticatori open source</h1>
+		</div>
+		<div class="alert alert-warning" role="alert">
+			<strong>Se in questo momento stai generando le OTP per accedere ai siti web con Google Authenticator, Microsoft Authenticator o Authy dovresti passare ad una delle alternative proposte qui di seguito.</strong>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">andOTP</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/andOTP.png" alt="andOTP" align="right" style="margin-left:5px;">andOTP è una app open source per l'autenticazione a due fattori per Android 4.4 e superiore. Supporta lo standard TOTP (Algoritmo OTP basato sul tempo). Per iniziare a generare le password basterà fare una semplice scansione del codice QR.
+						andOTP è un "fork" di OTP Authenticator sviluppata da Bruno Bierbaumer, che purtroppo non viene più aggiornata dal 2015. È possibile far eun backup dei token esportandoli e cifrandoli con la crittografia OpenPGP.</p>
+						<p>
+							<a href="https://f-droid.org/packages/org.shadowice.flocke.andotp/">
+								<button type="button" class="btn btn-success">Sito web: f-droid.org</button>
+							</a>
+						</p>
+						<p>SO: Android</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">FreeOTP</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/FreeOTP.png" alt="FreeOTP" align="right" style="margin-left:5px;">FreeOTP è una app open source per l'autenticazione a due fattori per sistemi che utilizzano il protocollo OTP (one-time password). I token possono essere aggiunti con facilità scansionando il codice QR.
+						FreeOTP supporta gli standard HOTP (Algoritmo OTP basato su HMAC) e TOTP (Algoritmo OTP basato sul tempo). Questo significa che non è richiesto alcun componente lato server per funzionare.</p>
+						<p>
+							<a href="https://freeotp.github.io/">
+								<button type="button" class="btn btn-info">Sito web: freeotp.github.io</button>
+							</a>
+						</p>
+						<p>SO: Android</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">Authenticator</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/Authenticator.jpg" alt="Authenticator by Matt Rubin" align="right" style="margin-left:5px;">Authenticator è semplice, gratuita ed open source. Ha il pieno supporto agli standard RFC 4226 (HOTP) e RFC 6238 (TOTP) ed i token sono cifrati e conservati nel dispositivo.
+						Per iniziare a generare le password basterà inserire la chiave manualmente o tramite la scansione del codice QR.</p>
+						<p>
+							<a href="https://mattrubin.me/authenticator/">
+								<button type="button" class="btn btn-warning">Sito web: mattrubin.me</button>
+							</a>
+						</p>
+						<p>SO: iOS</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h3>Vale la pena menzionare</h3>
+		<ul>
+			<li>
+				<a href="https://www.u2fzero.com/">U2F Zero</a> - U2F Zero è un token hardware open source per l'autenticazione a due fattori. Funziona con qualsiasi servizio abilitato a U2F. L'ultima versione utilizza la
+				<a href="https://wikipedia.org/it/Derivazione_di_una_chiave_crittografica" target="blank_">derivazione di chiavi crittografiche</a> e non ha limiti di registrazione.
+			</li>
+		</ul>
 		<a class="anchor" name="pw"></a>
 		<div class="page-header">
 			<h1><a href="#pw" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Programmi per gestire le password</h1>
@@ -3027,7 +3095,7 @@ Windows 10 trasmette i tuoi dati 5500 al giorno anche dopo aver modificato le im
 			<h3>Informazioni</h3>
 			<ul>
 				<li><a href="https://www.reddit.com/r/privacytoolsIO/wiki/index"><strong>Wiki di r/privacytoolsIO</strong></a> - La nostra wiki su reddit.com.</li>
-				<li><a href="https://www.grc.com/securitynow.htm"><strong>Sicurezza adesso!</strong></a> - Podcast settimanale sulla sicurezza in rete a cura di Steve Gibson e Leo Laporte.</li>
+				<li><a href="https://www.grc.com/securitynow.htm"><strong>Security now!</strong></a> - Podcast settimanale sulla sicurezza in rete a cura di Steve Gibson e Leo Laporte.</li>
 				<li><a href="http://www.jupiterbroadcasting.com/show/techsnap/"><strong>TechSNAP</strong></a> - Podcast settimanali su Sistemi, Reti ed Amministrazione. Ogni settimana TechSNAP racconta le storie che ci riguardano nell'industria tecnologica.</li>				
 				<li><a href="https://keybase.io/"><strong>Keybase.io</strong></a> - Ottieni una chiave pubblica, in modo sicuro, partendo solamente dal nome utente di qualcuno di un social media.</li>
 				<li><a href="https://freedom.press/"><strong>Freedom of the Press Foundation</strong></a> - Dal 2002 supportiamo e difendiamo il giornalismo dedicato alla trasparenza e responsabilità.</li>
@@ -3168,7 +3236,7 @@ Windows 10 trasmette i tuoi dati 5500 al giorno anche dopo aver modificato le im
 			
 			<p>Questa pagina è un "fork" (derivato) del progetto sopra citato. Se vuoi contribuire con dei miglioramenti o semplicemente inviare dei suggerimenti puoi farlo tramite i canali elencati nella <a href="#partecipa"><span class="glyphicon glyphicon-link"></span>sezione precedente</a>.
 			Se invece hai trovato uno o più errori di traduzione, trovi il codice sorgente di <a href="https://strappazzon.github.io/privacytools-it/">privacytools-it</a> su <a href="https://github.com/Strappazzon/privacytools-it" target="blank_">GitHub</a>. Faccio inoltre notare che i link
-			ed il wallet BTC per le donazioni rimandano tutti all'autore che ospita privacytools.io e non a me.</p>
+			ed il wallet BTC per le donazioni rimandano tutti all'autore che ospita privacytools.io e non a me. Se desideri inviarmi una donazione, troverai l'indirizzo al mio wallet in fondo alla pagina.</p>
 			
 			<p><i>Traduzione aggiornata al: 19 febbraio 2018</i></p>
 			
@@ -3184,13 +3252,20 @@ Windows 10 trasmette i tuoi dati 5500 al giorno anche dopo aver modificato le im
 			</div>
 			<p>
 
-				<a href="http://creativecommons.org/licenses/by-sa/4.0/" data-toggle="tooltip" data-placement="top" style="margin-right:30px;" data-original-title="Questo prodotto è coperto dalla licenza Creative Commons Attribution-ShareAlike 4.0 International License (Condividi allo stesso modo)"><img src="img/layout/creativecommons.png" style="margin-right:15px;">Creative Commons</a>
+				<a href="donate.html" data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta il progetto con una donazione in Bitcoin, il nostro sito non contiene pubblicità e non è affiliato con nessun servizio mostrato. La tua donazione coprirà il costo per il server."><img src="img/layout/Bitcoin.png" style="margin-right:3px;">Dona:</a> <span style="margin-left:0px;">1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt</span> oppure con <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G9CBU8P6F4K2" style="margin-right:30px;">PayPal</a>
 
-				<a href="http://www.kopimi.com/" data-toggle="tooltip" data-placement="top" style="margin-right:30px;" data-original-title="kopimi (copyme), il simbolo rappresenta che vuoi essere copiato. Utilizza kopimi come preferisci. kopimi può essere inserito in una home page o in un blog, nei libri, in un programma, come logo sonoro nelle canzoni e così via."><img src="img/layout/kopimi.gif" style="margin-right:15px;">kopimi (copyme)</a>
+				<a href="http://creativecommons.org/licenses/by-sa/4.0/" data-toggle="tooltip" data-placement="top" style="margin-right:30px;" data-original-title="Questo prodotto è coperto dalla licenza Creative Commons Attribution-ShareAlike 4.0 International License (Condividi allo stesso modo)"><img src="img/layout/creativecommons.png" style="margin-right:3px;">Creative Commons</a>
 
-				<a href="donate.html" data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta il progetto con una donazione in Bitcoin, il nostro sito non contiene pubblicità e non è affiliato con nessun servizio mostrato. La tua donazione coprirà il costo per il server."><img src="img/layout/Bitcoin.png" style="margin-right:15px;">Donate:</a> <span style="margin-left:15px;">1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt</span> or use <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G9CBU8P6F4K2">PayPal.</a>
+				<a href="http://www.kopimi.com/" data-toggle="tooltip" data-placement="top" style="margin-right:5px;" data-original-title="kopimi (copyme), il simbolo rappresenta che vuoi essere copiato. Utilizza kopimi come preferisci. kopimi può essere inserito in una home page o in un blog, nei libri, in un programma, come logo sonoro nelle canzoni e così via."><img src="img/layout/kopimi.gif" style="margin-right:5px;">kopimi (copyme)</a>
+
+				<br>
+				<br>
+
+				<a data-toggle="tooltip" data-placement="top" data-original-title="Se vuoi farmi una donazione per supportarmi questo è il mio indirizzo per le donazioni in Bitcoin"><img src="img/layout/Bitcoin_ITA.png" style="margin-right:5px;">Dona al traduttore:</a> <span style="margin-left:0px;">1G68ivfUWMXG8wznntK9i2c6TmnfzyM5JR</span></a>
 
 			</p>
+
+			<br>
 
 			<p><em>privacytools è un sito web motivato dalle persone che forniscono informazioni sulla tutela della privacy e sicurezza dei dati. Non fidarti mai di nessuna azienda quando c'è la tua privacy in gioco, cifra sempre.</em></p>
 	</div>
