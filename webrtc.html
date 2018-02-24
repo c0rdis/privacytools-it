@@ -1,51 +1,113 @@
 <!DOCTYPE html>
-<html>
+
+<!-- set the default language as Italian -->
+<html lang="it">
+
 <head>
-	<title>Leak IP WebRTC VPN / Test Tor | Privacy Tools</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<!-- content security policy -->
-	<!-- <meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src https://privacytoolsio.github.io http://privacytoolsio.github.io; style-src 'self'">  -->
 
 	<!-- referrer policy -->
-  	<meta http-equiv="Referrer-Policy" content="no-referrer">
-  
+	<meta http-equiv="Referrer-Policy" content="no-referrer">
+	
+	<!-- title -->
+	<title>WebRTC - privacytools</title>
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- css stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/custom.css?v=1" rel="stylesheet">
+
 </head>
+
 <body>
 
-<div style="margin:30px 0 0 30px;width:600px;">
-<h1><a href="https://strappazzon.github.io/privacytools-it/"><img src="img/layout/logo.png" class="img-responsive" alt="privacytools-it"></a></h1>
+	<!-- navigation starts -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Modifica navigazione</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 
-<h2>Leak IP WebRTC VPN / Test IP Tor</h2>
+			<div id="navbar" class="navbar-collapse collapse">
 
-<p>
-	WebRTC è un nuovo protocollo di comunicazione che dipende da JavaScript e che può rivelare il tuo reale indirizzo IP anche quando utilizzi una VPN. Software come NoScript possono impedirlo, ma è sicuramente una buona idea bloccare direttamente il protocollo per essere sicuri. Questa pagina verificherà se <strong>il protocollo WebRTC rivela</strong> il tuo reale indirizzo IP.
-</p>
+				<ul class="nav navbar-nav">
+					
+					<!-- home icon in the navigation bar -->
+					<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li><a href="#test">Test Leak WebRTC</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- navigation ends here -->
 
-<p>
-Questa demo invia delle richieste nascoste ai server STUN che sono in grado di
-registrarle. Queste richieste non appaiono nelle console sviluppatore e non possono
-essere bloccate dalle estensioni come AdBlock, Ghostery, ecc...
-</p>
+	<div class="container theme-showcase" role="main">
 
-<p>&nbsp;</p>
-<strong>Il tuo indirizzo IP locale reale:</strong>
-<ul></ul>
-<strong>Il tuo indirizzo IP pubblico reale:</strong>
-<ul></ul>
+		<div class="jumbotron">
+			<!-- header just below the navigation bar -->
+			<h1><img src="img/layout/logo_smaller.png" class="img-responsive" alt="privacytools-it"></h1>
+			<h3>Leak IP WebRTC VPN / Test IP Tor</h3>
+			<p>
+				WebRTC è un protocollo di comunicazione che dipende da JavaScript che può rivelare il tuo reale indirizzo IP quando stai utilizzando una VPN. Anche se software come NoScript lo impediscono, è sicuramente una buona idea bloccare il protocollo in modo diretto, per essere sicuri.
+				Questa pagina verificherà se il tuo browser è affetto dal Leak WebRTC.
+			</p>
+			<!-- end header just below the navigation bar -->
+		</div>
 
-<p>&nbsp;</p>
+		<a class="anchor" name="test"></a>
+		<div class="page-header">
+			<h1><a href="#test" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Scopri se il browser rivela il tuo Indirizzo IP</h1>
+		</div>
 
-<p>Se puoi vedere il tuo indirizzo IP qui sopra, il tuo browser non è sicuro e l'indirizzo IP verrà rivelato anche se utilizzi una VPN.</p>
+		<p>
+			Questa demo invia segretamente delle richieste ai server STUN che possono registrare le richieste.
+			Queste richieste non appaiono nelle console sviluppatore e non possono essere bloccate dalle estensioni per i browser come AdBlock, Ghostery, ecc...
+		</p>
 
-<p><strong><a href="https://strappazzon.github.io/privacytools-it/#webrtc">Come risolvo il Leak WebRTC?</a></strong></p>
+		<br>
 
-<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<strong>Il tuo indirizzo IP locale:</strong>
+		<ul></ul>
+		<strong>Il tuo indirizzo IP pubblico:</strong>
+		<ul></ul>
 
-<p>Codice Sorgente: <a href="https://github.com/diafygi/webrtc-ips" target="_blank">GitHub</a>
-<br>Versione Script: 20 Luglio, 2015</a></p>
+		<p>&nbsp;</p>
+
+		<p>Se riesci a vedere il tuo indirizzo IP qui sopra, il tuo browser non è sicuro e lo rivelerà anche se utilizzi una VPN.</p>
+
+		<p><strong><a href="https://strappazzon.github.io/privacytools-it/#webrtc">Come risolvo il Leak WebRTC?</a></strong></p>
+
+		<p>&nbsp;</p>
+
+		<p>Codice sorgente: <a href="https://github.com/diafygi/webrtc-ips" target="_blank">GitHub</a>
+		<br>Versione script: 20 Luglio 2015</a></p>
 
         <iframe id="iframe" sandbox="allow-same-origin" style="display: none"></iframe>
         <script>
@@ -147,20 +209,10 @@ essere bloccate dalle estensioni come AdBlock, Ghostery, ecc...
 
 </div>
 
-<!-- Start Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//www.privacytools.io/stats/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//www.privacytools.io/stats/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+	<!-- add jQuery and Bootstrap libraries  -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </body>
+
+</html>

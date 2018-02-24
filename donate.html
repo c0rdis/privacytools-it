@@ -1,66 +1,185 @@
 <!DOCTYPE html>
-<html>
+
+<!-- set the default language as Italian -->
+<html lang="it">
+
 <head>
-	<title>Dona - privacytools.io</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
-	<!-- content security policy -->
-	<!--  <meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src https://privacytoolsio.github.io http://privacytoolsio.github.io; style-src 'self'"> -->
 
 	<!-- referrer policy -->
-  	<meta http-equiv="Referrer-Policy" content="no-referrer">
-  
+	<meta http-equiv="Referrer-Policy" content="no-referrer">
+	
+	<!-- title -->
+	<title>Dona - privacytools</title>
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- css stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/custom.css?v=1" rel="stylesheet">
+
 </head>
+
 <body>
 
-<center>
+	<!-- navigation starts -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Modifica navigazione</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 
-<br>
+			<div id="navbar" class="navbar-collapse collapse">
 
-<p>
-	<a href="https://strappazzon.github.io/privacytools-it/"><img src="img/layout/logo_smaller.png" class="img-responsive" alt="privacytools-it"></a>
-</p>
+				<ul class="nav navbar-nav">
+					
+					<!-- home icon in the navigation bar -->
+					<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li><a href="#autore">Dona all'autore</a></li>
+					<li><a href="#traduttore">Dona al traduttore</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- navigation ends here -->
 
+	<div class="container theme-showcase" role="main">
 
-<h1>Per favore fai una donazione</h1>
+		<div class="jumbotron">
+			<!-- header just below the navigation bar -->
+			<h1><img src="https://www.privacytools.io/img/layout/logo_smaller.png" class="img-responsive" alt="privacytools.io"></h1>
+			<h3>Per favore supportaci con una donazione</h3>
+			<!-- end header just below the navigation bar -->
+		</div>
 
-<p>
-	Il nostro sito non contiene pubblicità e non è affiliato con nessun servizio mostrato.<br/>
-	La tua donazione coprirà il costo per il server, domini, caffè, birra e pizza.
-</p>
+		<a class="anchor" name="autore"></a>
+		<div class="page-header">
+			<h1><a href="#autore" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Fai una donazione a privacytools.io</h1>
+		</div>
 
-<p>
-	<h2>Bitcoin:</h2>
+		<p>
+			Il nostro sito non contiene pubblicità e non è affiliato con nessun servizio mostrato.
+			<br>
+			La tua donazione coprirà il costo del dominio, caffè, birra e pizza.
+		</p>
 
-<p>
-	<a href="bitcoin:1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt?message=privacytools.io%20(Coffee,%20Beer%20and%20Pizza)" target="_blank"><img src="img/layout/qr.png"></a>	
-</p>	
+		<br>
 
-<p>
-	<input type="text" value="1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt" onclick="this.focus();this.select()" class="form-control input-lg" style="width:400px;">
-	<span class="help-block">Per comodità copia e incolla. <a href="bitcoin:1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt?message=privacytools.io%20(Coffee,%20Beer%20and%20Pizza)">Altrimenti utilizza questo link.</a></span>
-</p>	
+		<!-- Donation Options -->
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">Bitcoin</h3>
+					</div>
+					<div class="panel-body">
+						<center>
+						<p>
+							<a href="bitcoin:1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt?message=privacytools.io%20(Coffee,%20Beer%20and%20Pizza)" target="_blank"><img src="img/layout/qr.png"></a>	
+						</p>	
 
-</p>
+						<p>
+							<input type="text" value="1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt" onclick="this.focus();this.select()" class="form-control" style="width:305px;">
+							<span class="help-block">Per comodità copia e incolla <a href="bitcoin:1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt?message=privacytools.io%20(Coffee,%20Beer%20and%20Pizza)">oppure clicca qui</a></span>
+						</p>
+						</center>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">PayPal</h3>
+					</div>
+					<div class="panel-body">
+						<center>
+						<p>
+							<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G9CBU8P6F4K2" target="_blank"><img src="img/layout/PayPal.png"></a>
+						</p>
 
-<br>
+						<p>
+							<span class="help-block">Clicca l'immagine qui sopra per donare con PayPal</span>
+						</p>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end Donation Options -->
+		
+		<a class="anchor" name="traduttore"></a>
+		<div class="page-header">
+			<h1><a href="#traduttore" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Fai una donazione a privacytools-it</h1>
+		</div>
 
-<p>
-	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G9CBU8P6F4K2" target="_blank"><img src="img/layout/PayPal.png"></a>
-</p>
+		<p>
+			Se con la traduzione di questo sito ti sono stato utile per favore supportami con una donazione.
+			<br>
+			Oltre a tradurre il sito mi assicuro che le informazioni siano corrette ed aggiornate.
+		</p>
 
+		<br>
 
+		<!-- Donation Options -->
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">Bitcoin</h3>
+					</div>
+					<div class="panel-body">
+						<center>
+						<p>
+							<a href="bitcoin:1G68ivfUWMXG8wznntK9i2c6TmnfzyM5JR?message=Donazione%20privacytools-it" target="_blank"><img src="img/layout/qr_translator.png"></a>	
+						</p>	
 
+						<p>
+							<input type="text" value="1G68ivfUWMXG8wznntK9i2c6TmnfzyM5JR" onclick="this.focus();this.select()" class="form-control" style="width:305px;">
+							<span class="help-block">Per comodità copia e incolla <a href="bitcoin:1G68ivfUWMXG8wznntK9i2c6TmnfzyM5JR?message=Donazione%20privacytools-it">oppure clicca qui</a></span>
+						</p>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end Donation Options -->
 
-	<h3>Grazie per il supporto. Sei il migliore!</h3>
+		<a class="anchor" name="grazie"></a>
+		<div class="page-header">
+			<h3><a href="#grazie" class="titleanchor"></a> Grazie per il supporto, sei il migliore</h3>
+		</div>
 
+		<img src="img/misc/smile.png" class="img-responsive" alt="Smile">
 
-<p>
-	<img src="img/misc/smile.png" class="img-responsive" alt="Smile">
-</p>
+	<!-- add jQuery and Bootstrap libraries  -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-</center>
 </body>
+
 </html>
