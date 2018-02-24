@@ -143,6 +143,7 @@
 							<li><a href="#so">Sistemi Operativi per PC</a></li>
 							<li><a href="#so_live">Sistemi Operativi "Live CD"</a></li>
 							<li><a href="#so_mobile">Sistemi Operativi per dispositivi mobili</a></li>
+							<li><a href="#android">App Android per la privacy</a></li>
 							<li><a href="#firmware">Firmware per i router</a></li>
 						</ul>
 					</li>
@@ -903,15 +904,17 @@
 		<div class="alert alert-warning" role="alert">
 			<strong>Le estensioni mostrate di seguito richiedono un elevato numero di interazioni da parte dell'utente per far si che tutto funzioni. Alcuni siti non funzioneranno correttamente finché non avrai configurato le estensioni.</strong>
 		</div>
+		
 		<!--
-<h3>Stop cross-site requests with "Request Policy"</h3>
-<img src="img/addons/Request-Policy.gif" class="img-responsive pull-left" alt="Request Policy" style="margin-right:30px;">
-<p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. Request Policy gives you control over the requests that websites make to other websites. This gives you greater and more fine grained control over the information that you leak online.
-<br />
-<a href="https://requestpolicycontinued.github.io/">https://requestpolicycontinued.github.io/</a>
-</p>
--->
-		<h3>Ferma le richieste tra siti web (cross-site) con "uMatrix"</h3>
+			<h3>Stop cross-site requests with "Request Policy"</h3>
+			<img src="img/addons/Request-Policy.gif" class="img-responsive pull-left" alt="Request Policy" style="margin-right:30px;">
+			<p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. Request Policy gives you control over the requests that websites make to other websites. This gives you greater and more fine grained control over the information that you leak online.
+				<br />
+				<a href="https://requestpolicycontinued.github.io/">https://requestpolicycontinued.github.io/</a>
+			</p>
+		-->
+		
+		<h3>Blocca le richieste tra siti web (cross-site) con "uMatrix"</h3>
 		<img src="img/addons/uMatrix.gif" class="img-responsive pull-left" alt="uMatrix" style="margin-right:30px;">
 		<p>Molti siti web integrano delle funzioni che permettono ad altri siti web di tracciarti, come Google Analytics od i pulsanti "Mi Piace" di Facebook. uMatrix ti permette di avere il controllo su queste richieste. Questo ti permette un maggiore e migliore controllo
 			sulle informazioni che riveli online.
@@ -927,6 +930,14 @@
 			<a href="https://addons.mozilla.org/firefox/addon/noscript/">https://addons.mozilla.org/firefox/addon/noscript/</a>
 		</p>
 
+		<h3>Ancora più sicurezza con "ScriptSafe"</h3>
+		<img src="img/addons/ScriptSafe.png" class="img-responsive pull-left" alt="ScriptSafe" style="margin-right:30px;">
+		<p>
+			Simile a NoScript. Con ScriptSafe puoi controllare JavaScript in ogni sito, decidi tu quali siti con la funzione whitelist/blacklist. Ci sono altre funzioni come la protezione dal "fingerprinting", protezione contro i leak WebRTC e tante altre.
+			Sconsigliata agli utenti comuni, richiede delle conoscenze tecniche per essere configurata.
+			<br />
+			<a href="https://addons.mozilla.org/en-US/firefox/addon/script-safe/">https://addons.mozilla.org/firefox/addon/script-safe/</a>
+		</p>
 
 		<!-- about:config tweaks for Firefox -->
 		<a class="anchor" name="about_config"></a>
@@ -957,6 +968,11 @@
 			<li>privacy.resistFingerprinting = true</li>
 			<ul>
 				<li>Il risultato degli sforzi di <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>, questa opzione rende Firefox ancora più resistente al "fingerprinting".</li>
+			</ul>
+
+			<li>privacy.resistFingerprinting.block_mozAddonManager = true</li>
+			<ul>
+				<li>Questa impostazione è necessaria se si vuole installare estensioni da addons.mozilla.org quando l'impostazione privacy.resistFingerprinting è impostata su true.</li>
 			</ul>
 
 			<li>privacy.trackingprotection.enabled = true</li>
@@ -1427,7 +1443,7 @@
 					<div class="panel-body">
 						<p><img src="img/tools/RetroShare.png" alt="RetroShare" align="right" style="margin-left:5px;">Retroshare crea una connessione cifrata verso i tuoi amici. Nessuno può spiarti. Retroshare è completamente decentralizzato. Ciò significa che non esiste un server centrale. È tutto open source e gratuito. Non ci sono costi da sostenere, pubblicità e Termini di Servizio.</p>
 						<p>
-							<a href="http://retroshare.sourceforge.net/">
+							<a href="http://retroshare.net/">
 								<button type="button" class="btn btn-warning">Sito web: retroshare.sourceforge.net</button>
 							</a>
 						</p>
@@ -2937,7 +2953,34 @@
 			<li><a href="http://omnirom.org/">OmniROM</a> - Un sistema operativo gratuito per smartphone e tablet, basato sulla piattaforma mobile Android.</li>
 			<li><a href="https://microg.org/">MicroG</a> - Un progetto che vuole sostituire il proprietario Google Play Services nei sistemi operativi Android.
 		</ul>
+
+		<!-- Android add-ons -->
+		<a class="anchor" name="android"></a>
+		<div class="page-header">
+			<h1><a href="#android" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> App Android per la privacy</h1>
+		</div>
+
+		<div class="alert alert-success" role="alert">
+			<strong>Migliora la privacy su Android con queste app</strong>
+		</div>
 		
+		<h3>Monitora il traffico di rete con "NetGuard"</h3>
+		<img src="img/addons/NetGuard.png" class="img-responsive pull-left" alt="NetGuard" style="margin-right:30px;">
+		<p><strong>NetGuard</strong> permette a tutti gli utenti - esperti e non - di bloccare l'accesso ad Internet per alcune app senza avere i permessi di root. È possibile bloccare\permettere singole app ed indirizzi scegliendo anche per quale connessione li si vuole bloccare (Wi-Fi\Dati).
+		<a href="https://www.netguard.me/">https://www.netguard.me/</a></p>
+		<br>
+		<br>
+		<div class="alert alert-warning" role="alert">
+			<strong>Da questo punto in poi, le app elencate richiedono i permessi di root. Questo rende il dispositivo più vulnerabile quindi procedi con cautela.</strong>
+		</div>
+		
+		<h3>Gestisci i permessi delle app con "XPrivacyLua"</h3>
+		<img src="img/addons/XPrivacyLua.png" class="img-responsive pull-left" alt="XPrivacyLua" style="margin-right:30px;">
+		<p>Revocare i permessi delle app direttamente dalle impostazioni di Android causa spesso dei malfuzionamenti. <strong>XPrivacyLua</strong> risolve il problema dando in pasto alle app dati falsi piuttosto che quelli reali.
+
+		<a href="https://lua.xprivacy.eu/">https://lua.xprivacy.eu/</a></p>
+		<p>Requisiti: <a href="https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445">Magisk (XDA)</a> e <a href="https://forum.xda-developers.com/showthread.php?t=3034811">Xposed Framework (XDA)</a></p>
+
 		<a class="anchor" name="firmware"></a>
 		<div class="page-header">
 			<h1><a href="#firmware" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Firmware open source per router</h1>
@@ -3312,7 +3355,7 @@ Windows 10 trasmette i tuoi dati 5500 al giorno anche dopo aver modificato le im
 			Se invece hai trovato uno o più errori di traduzione, trovi il codice sorgente di <a href="https://strappazzon.github.io/privacytools-it/">privacytools-it</a> su <a href="https://github.com/Strappazzon/privacytools-it" target="blank_">GitHub</a>. Faccio inoltre notare che i link
 			ed il wallet BTC per le donazioni rimandano tutti all'autore che ospita privacytools.io e non a me. Se desideri inviarmi una donazione, troverai l'indirizzo al mio wallet in fondo alla pagina.</p>
 			
-			<p><i>Traduzione aggiornata al: 21 febbraio 2018</i></p>
+			<p><i>Sito aggiornato al: 24 febbraio 2018</i></p>
 			
 			<br>
 			
